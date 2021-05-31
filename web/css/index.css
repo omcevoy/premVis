@@ -1,0 +1,15 @@
+* {
+    font-family: Montserrat;
+}
+body {
+    margin: auto;
+    position: relative;
+    width: 960px;
+  }
+
+#donut_chart {
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+

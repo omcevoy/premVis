@@ -41,4 +41,4 @@ def getPay():
     soup = BeautifulSoup(r.text, 'lxml')
     rows = soup.find_all('tr')[1:]
     leagueData = getData(rows)
-    print(leagueData)
+    return leagueData
